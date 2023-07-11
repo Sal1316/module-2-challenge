@@ -1,0 +1,116 @@
+/* Variables */
+:root {
+  --navColor: aqua;
+  --backgroundColor: rgb(96, 96, 96);
+  --layoutColor: rgb(249, 248, 248);
+  --h1Color: rgb(27, 27, 164);
+  --white: #fff;
+  --borderRadius: 50px;
+}
+
+/* Navbar */
+nav {
+  background-color: var(--backgroundColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  background-color: var(--navColor);
+  padding: 10px 20px 15px 10px;
+  margin-bottom: 10px;
+}
+nav ul {
+  display: flex;
+  padding-right: 20px;
+}
+nav ul li {
+  padding-right: 20px;
+  color: var(--navColor);
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+/* Header */
+.header-background {
+  height: 250px;
+  background-image: url("../images/forest-background.jpg");
+
+}
+header {
+  position: relative;
+}
+header img {
+  width: 100%;
+}
+.header-background figcaption {
+  position: absolute;
+  background-color: var(--navColor);
+  padding: 10px;
+  color: var(--backgroundColor);
+  bottom: 25px;
+  right:25px;
+}
+
+/* Main */
+main {
+
+}
+.section-container {
+  display: flex;
+  margin: 75px 0;
+}
+aside {
+  border-right: 3px solid var(--h1Color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 25%;
+}
+section {
+  padding: 20px;
+  width: 75%;
+  color: var(--h1Color);
+}
+.section-container h1 {
+  color: var(--h1Color)
+}
+
+
+/* Work */
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project-card {
+  height: 150px;
+  width: 300px;
+  padding: 5px;
+  
+  /* justify-content: space-around;
+  margin: 0 auto; */
+/* CANNOT CENTER IMAGE IN CARD */
+}
+.project-card img {
+  /* max-width: 100%; */
+  border-radius: 20px;
+  max-height: 100%;
+  box-shadow: 10px 10px 19px 1px rgba(44,42,42,0.75);
+}
+
+/* Footer */
+footer {
+  color: var(--navColor);
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  padding-bottom: 30px;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
