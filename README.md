@@ -1,16 +1,21 @@
 # SALVADOR'S PORTFOLIO
 
-## Description ✅
+## Description 
 
 - This page is meant to provide infomation to a prospective employeer. In the page, you will find current and past rojects that I have completed in my journey to becoming a Developer.
 - There projects were made to showcase the skills ranging from HTML, CSS, and JavaScript.
 - Upon completing these projects, I was able to attain the neccessary knowledge to loop for an entry-level Developer position.
 
-## Page Layout:
+## GitHub repository link
 
-```md
-Header:
-![Alt text](<Assets/images/Portfoio demo bottom.jpg>)
-Body:
-Footer:
-```
+      https://github.com/Sal1316/module-2-challenge.git
+
+## GitHub published link:
+
+      https://sal1316.github.io/module-2-challenge/
+
+## Picture of page:
+
+![Alt text](./assets/images/image-1.png)
+![Alt text](./assets/images/image-2.png)
+![Alt text](./assets/images/image-3.png)
