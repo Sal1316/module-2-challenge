@@ -1,6 +1,6 @@
 # SALVADOR'S PORTFOLIO
 
-## Description 
+## Description
 
 - This page is meant to provide infomation to a prospective employeer. In the page, you will find current and past rojects that I have completed in my journey to becoming a Developer.
 - There projects were made to showcase the skills ranging from HTML, CSS, and JavaScript.
@@ -16,6 +16,6 @@
 
 ## Picture of page:
 
-![Alt text](./assets/images/image-1.png)
-![Alt text](./assets/images/image-2.png)
-![Alt text](./assets/images/image-3.png)
+![Alt text](./assets/images/Header.jpg)
+![Alt text](./assets/images/body.jpg)
+![Alt text](./assets/images/footer.jpg)
