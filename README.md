@@ -16,6 +16,6 @@
 
 ## Picture of page:
 
-![Alt text](./assets/images/Header.jpg)
-![Alt text](./assets/images/body.jpg)
-![Alt text](./assets/images/footer.jpg)
+![Alt text](./Assets/images/Header.jpg)
+![Alt text](./Assets/images/body.jpg)
+![Alt text](./Assets/images/footer.jpg)
