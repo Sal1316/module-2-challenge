@@ -1,8 +1,8 @@
 /* Variables */
 :root {
-  --navColor: rgb(6, 255, 238);
-  --backgroundColor: rgb(96, 96, 96);
-  --layoutColor: rgb(249, 248, 248);
+  --navColor: rgb(61, 23, 214);
+  --backgroundColor: rgb(161, 160, 160);
+  --layoutColor: rgb(59, 151, 182);
   --h1Color: rgb(11, 11, 101);
   --white: #fff;
   --borderRadius: 50px;
@@ -11,7 +11,8 @@
 body {
   min-height: 100%;
   line-height: 1;
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   /* font-family: 'Permanent Marker', cursive; */
   /* font-family: 'Shadows Into Light', cursive; */
 }
@@ -22,12 +23,13 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
+  position: sticky;  /* have to use with flex property*/
   top: 0;
   z-index: 1;
 }
 nav h1 {
   background-color: var(--navColor);
+  color:aliceblue;
   padding: 10px 20px 15px 10px;
   margin-bottom: 10px;
 }
@@ -39,18 +41,21 @@ nav ul li {
   padding-right: 20px;
   color: var(--navColor);
   font-weight: bold;
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
+  
 }
+
 nav ul li:hover {
   color: rgb(7, 7, 253);
 }
-
+nav ul li a {
+  text-decoration: none;
+}
 /* Header */
 .header-background {
   height: 250px;
   background-image: url("../images/forest-background.jpg");
-
+  background-size: cover;
+  background-position: 40% 30%;
 }
 header {
   position: relative;
@@ -74,13 +79,15 @@ header img {
 } */
 .about-me p {
   padding: 0 90px;
+  line-height: 20px;
+  font-weight: bold;
 }
 .section-container {
   display: flex;
   margin: 55px 0;
 }
 aside {
-  border-right: 3px solid var(--h1Color);
+  border-right: 2px solid var(--h1Color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,7 +115,6 @@ section {
   width: 300px;
   padding: 5px;
   margin: 4px 4px;
-  /*  */
   display: flex;
   justify-content: center; 
   align-items: center;
@@ -136,9 +142,8 @@ section {
 
 /* Footer */
 footer {
-  color: var(--navColor);
   font-weight: bold;
-  text-decoration: underline;
+  text-underline-offset: 10px;
   text-decoration-thickness: 2px;
   padding-bottom: 30px;
 }
@@ -152,8 +157,14 @@ footer li a:hover {
   padding: 5px;
   border-radius: 5px;
 }
-/* ICONS IS NOT WORKING */
-.icon-twitter::before {
-  content: "\f099 ";
-}
 
+.icon-link{
+  color: inherit;
+}
+/* stretched line under Icon. */
+i, .nav-links, .contact-me {
+  border-bottom: 2px solid var(--navColor);
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
