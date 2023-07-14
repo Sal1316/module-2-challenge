@@ -1,10 +1,10 @@
 /* Variables */
 :root {
-  --navColor: rgb(61, 23, 214);
-  --backgroundColor: rgb(161, 160, 160);
+  --navColor: rgb(12, 22, 210);
+  --backgroundColor: rgb(1, 61, 114);
   --layoutColor: rgb(59, 151, 182);
   --h1Color: rgb(11, 11, 101);
-  --white: #fff;
+  --white: #d2caca;
   --borderRadius: 50px;
 }
 
@@ -29,7 +29,7 @@ nav {
 }
 nav h1 {
   background-color: var(--navColor);
-  color:aliceblue;
+  color:var(--white);
   padding: 10px 20px 15px 10px;
   margin-bottom: 10px;
 }
@@ -47,8 +47,13 @@ nav ul li {
 nav ul li:hover {
   color: rgb(7, 7, 253);
 }
-nav ul li a {
+.nav-links{
   text-decoration: none;
+  color:var(--white);
+  border-bottom: 2px solid var(--white);
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 /* Header */
 .header-background {
@@ -65,6 +70,7 @@ header img {
 }
 .captions{
   position: absolute;
+  opacity: 60%;
   background-color: var(--white);
   border-radius: 8px;
   padding: 10px;
@@ -162,7 +168,7 @@ footer li a:hover {
   color: inherit;
 }
 /* stretched line under Icon. */
-i, .nav-links, .contact-me {
+i, .contact-me {
   border-bottom: 2px solid var(--navColor);
   padding-bottom: 5px;
   padding-left: 10px;
